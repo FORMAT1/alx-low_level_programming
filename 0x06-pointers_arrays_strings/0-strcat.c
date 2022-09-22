@@ -3,7 +3,7 @@
 /**
  *_strcat - concatenates the string pointed to by @src to
  *thee end of thee string pointed to by @dest
- *@dest: String thaat will be appended 
+ *@dest: String thaat will be appended
  *@src: String to be concatenated upon
  *
  *Return: returns pointer to @dest
