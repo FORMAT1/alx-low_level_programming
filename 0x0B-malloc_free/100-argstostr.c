@@ -8,7 +8,7 @@
 
 int len(char *str)
 {
-	int len = 0
+	int len = 0;
 
 		if (str != NULL)
 		{
@@ -33,7 +33,7 @@ char *argstostr(int ac, char **av)
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
-	
+
 	while (ac--)
 		sum += (len(av[ac]) + 1);
 	new_string = (char *) malloc(sum + 1);
