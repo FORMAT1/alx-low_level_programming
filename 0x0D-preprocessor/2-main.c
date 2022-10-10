@@ -1,6 +1,13 @@
-#include <stdio>
+#include <stdlib.h>
+#include <stdio.h>
+/**
+ * main - prints name of the file
+ *
+ * Return: 0
+ */
 
-int _putchar(char)
+int main(void)
 {
-	_putchar(2-main.c)
+	printf("%s\n", _FILE_);
+	return (0);
 }
