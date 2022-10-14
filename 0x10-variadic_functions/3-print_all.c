@@ -3,8 +3,8 @@
 #include "variadic_functions.h"
 
 /**
- * prints_c - print a char
- * c: char to print
+ * print_c - print a char
+ * @c: char to print
  *
  * Return: void
  */
@@ -40,7 +40,7 @@ void print_i(va_list i)
 }
 
 /**
- * print_f - print float
+ * print_f - prints a float
  * @f: float to print
  *
  * Return: void
@@ -74,7 +74,7 @@ void print_all(const char * const format, ...)
 	while (format && format[i])
 	{
 		j = 0;
-		while (p[j].t != format[i])
+		while (p[j].t != NULL)
 		{
 			if (*(p[j].t) == format[i])
 			{
