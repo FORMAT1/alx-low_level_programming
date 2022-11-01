@@ -5,9 +5,9 @@
 /**
  * struct print - type with corresponding print function
  * @t: print type
- * @f: print function 
+ * @f: print function
  */
-typedef struct print 
+typedef struct print
 {
 	char *t;
 	void (*f)(va_list);
